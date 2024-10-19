@@ -18,7 +18,7 @@ void setup() {
     
     // The camera can be initialized directly using an 
     // element from the array returned by list():
-    cam = new Capture(this, cameras[0]);
+    cam = new Capture(this, cameras[2]);    // change index to change camera
     cam.start();     
   }      
 }
