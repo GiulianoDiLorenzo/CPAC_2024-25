@@ -13,7 +13,7 @@
 * PointAnimationMouse: how to use the mouse to animate points
 * PointClass: how to define classes
 * Pointilism: how to use point class to draw a given image
-* Voice_intensity: how to tacke an audio input stream
+* Voice_intensity: how to tack an audio input stream
 
 ## Wekinator
 
