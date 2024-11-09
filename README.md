@@ -1,5 +1,7 @@
 # Creative Computing Course 2024-2025
-A repository to collect coding mateial for the Polimi's course "Creative Programming and Computing" held by prof. Massimiliano Zanoni in A.Y. 2024/2025
+A repository to collect coding material for the Polimi's course "Creative Programming and Computing" held by prof. Massimiliano Zanoni in A.Y. 2024/2025.
+
+Note: create a virtual environment .venv using python 3.12, due to compatibility with the required libraries inside `requirements.txt`.
 
 # Your first git commands
 To _clone_ the repository, i.e., have a synced copy in your local computer, use the URL https://github.com/mae-creative-pc/cpac_course_2024-25.git from your Git client. 
