@@ -1,7 +1,6 @@
 import sys
 import time
 import numpy as np
-
     
 from classes import Agent, Composition, ID_START
 
@@ -11,7 +10,10 @@ class Gingerbread(Composition):
         self.min=-3
         self.max=8
         self.range=self.max-self.min 
-        # your code here
+        
+        # algorithm initialisation
+        self.x = -0.1
+        self.y = 0.1
 
     def map(self, value_in, min_out, max_out):
         value_out = (value_in-self.min)/(self.range)
@@ -19,8 +21,14 @@ class Gingerbread(Composition):
         return np.clip(value_out, min_out, max_out)
 
     def next(self):
-        # your code here
-        pass
+        # algorithm implementation step
+        self.amp = 1
+        x_old = self.x
+        self.x = 1-self.y + abs(self.x)
+        self.y = x_old
+        self.midinote = int(self.map(self.y, 60, 84))
+        self.dur = self.map(self.x, 0.125,1)
+        print(self.x, self.y)
     
 if __name__=="__main__":
     n_agents=1
@@ -39,5 +47,3 @@ if __name__=="__main__":
             agent.kill()
             agent.join()
         sys.exit()
-
-# %%

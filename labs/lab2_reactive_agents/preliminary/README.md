@@ -1,12 +1,12 @@
-# Prelinary operations for second laboratory
+# Preliminary operations for LAB 2
 
-This guide describes some preliminary operations that you need for lab 2 of the course.
+This guide describes some preliminary operations that you need for LAB 2 of the course.
 This will guarantee everybody will have an environment ready for the class.
 
 For any problem, ask in the #helpme channel in the slack and I will try to help you out.
 
-# Super collider
-Follow these steps to make sure you can use a super collider instrument.
+## SuperCollider
+Follow these steps to make sure you can use a SuperCollider instrument.
 
 
 1. download supercollider from https://supercollider.github.io/downloads.html and install it
@@ -27,7 +27,7 @@ We will need to connect super collider with OSC. Follow the previous steps from 
 2. execute lines 59-82
 3. go to the next sections, leaving supercollider open
 
-# Processing
+## Processing
 Follow these steps to make sure you can connect processing with super collider via OSC
 
 1. open the file testOSC.pde from lab2_reactive_agents/exercises/processing_playing_physics/testOSC
@@ -38,7 +38,7 @@ Follow these steps to make sure you can connect processing with super collider v
 6. STOP THE SOUND from Supercollider and close Processing.
 
 
-# Python
+## Python
 Follow these steps to make sure you can connect Python with super collider via OSC
 
 1. install from pip the library python-osc as ```pip install python-osc``` (if you already setup a virtual envoirments with requirements.txt, it's already installed)
